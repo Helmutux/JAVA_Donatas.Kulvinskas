@@ -1,16 +1,20 @@
 
-import java.util.Scanner;
+// Dvieju skaiciu daugyba
 
 class task5{
 	public static void main(String[] args) {
-  		Scanner in = new Scanner(System.in);
-   
+  		
+   		Integer numFirst;
+   		Integer numSecond;
+   		Integer sum;
+
 	  	System.out.print("Ivesti pirma skaiciu: ");
-	  	int numFirst = in.nextInt();
+	  	numFirst = Integer.valueOf(System.console().readLine());
 	   
 	  	System.out.print("Ivesti antra skaiciu: ");
-	  	int numSecond = in.nextInt();
+	  	numSecond = Integer.valueOf(System.console().readLine());
 	   
-	  	System.out.println(numFirst + " x " + numSecond + " = " + numFirst * numSecond);
+	   sum = numFirst * numSecond;
+	  	System.out.println(numFirst + " x " + numSecond + " = " + sum);
  	}
 }
