@@ -34,11 +34,11 @@ class Task1{
             } else if(counter == 0 && counter2 > 0){
                 System.out.println("Masyvas yra mazejanti seka.");
             }
-            System.out.println("Isvedu masyvo elementus atvirkstine tvarka:");
+        System.out.println("Isvedu masyvo elementus atvirkstine tvarka:");
         for (i=sequention.length-1; i>=0; i--) {
             System.out.println(sequention[i]);
         }
-            System.out.println("Isvedu kas antro masyvo elemento reiksme:");
+        System.out.println("Isvedu kas antro masyvo elemento reiksme:");
         for (i=1; i<sequention.length; i++) {
             System.out.println(sequention[i]);
             i+=1;
